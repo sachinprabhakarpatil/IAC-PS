@@ -1,0 +1,126 @@
+Noun can be anyting 
+
+Verb need to take action
+
+Get-command -noun *Service*
+
+-name BITS (Parameters)
+
+Win* Start with
+*Win end with
+*win* from win anywhere
+
+Objects:
+1) Properties
+2) Methods
+
+Collection of classes and module in .net which use by powershell
+
+.net classes - Blueprint (i.e Active Directory Schema) "Defination of "
+
+Methods Create, Delete, Move for user
+
+Properties (Feature) : 
+
+Classes :
+
+1) System (system.string)From classes of instace make object (will start working on properties)
+2) Dignostic
+
+Objects : 
+
+TypeName: System.ServiceProcess.ServiceController is an class (service is an object)
+
+object.prop1
+object.method1()
+
+Sting "" '' abc
+INT		not quote 1,2 3
+BOOL $true $False 1T 0F
+Flot 1.23
+decimal.  ?
+char ""Single Alpha "String is collection of charecter"
+
+Variable start with $
+
+
+assigning value to vaiable
+
+array is a collection of objects
+
+[] collection
+
+PSprovide to access datastore
+
+childitem :  inside of Container  get-childitem -path	 C:\ or HKLM:\ -recursive
+
+item :  Single item output Get-item c:\windows | *
+
+itemproperty : get-itemproperty c:\windows
+Condition Flow
+
+If (Condition / Expression)
+{
+Else
+}
+{
+if false block
+}
+
+Mulitple condition
+If (Condition / Expression)
+{True
+}
+Else if
+{True
+}
+}Else
+{
+}False
+
+If (2 -eq 3)
+{
+Else
+true block
+W-H "Number are equal"
+}
+{
+if false block
+W-H "Number are not equal"
+}
+
+Operators
+
+get-help about_operators
+
+
+-eq  exact match BITS - bits
+-like wildcard	BITS "*TS"
+-match Pattern should match 
+
+Regular Expression 
+
+"" -match ""
+
+start ^ Carrot sing^
+End $ sign
+Quniries
+*  0 or more
++	1 or more
+?  0 or one time
+
+\w match with any charecter {a-z A-Z 0-9}
+\W 	\ + - Space match
+\d digits
+\D Non digits
+\s Space
+\S non space
+
+get-contect C:\log -raw	-match (i.e
+
+
+for()
+{$ (initalize; condition ; update;)
+($i=10; $i -lt 10; $i=$i+1 /$i=$i++ )
+}
+
