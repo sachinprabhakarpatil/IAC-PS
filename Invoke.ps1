@@ -1,0 +1,1 @@
+﻿Invoke-Command -ComputerName SERVER1 {Set-ItemProperty -Path HKLM:\SYSTEM\DemoKey -Name CachedLogonsCount -Value '0'}
